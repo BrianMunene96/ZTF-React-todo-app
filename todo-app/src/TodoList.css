@@ -38,4 +38,17 @@
   border: 1px solid white;
   padding: 10px;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-circle-check {
+  color: #eb30dd;
+  background-color: white;
+  padding: 3px;
+  font-size: 20px;
+}
+
+.fa-circle-check:hover {
+  cursor: pointer;
 }
