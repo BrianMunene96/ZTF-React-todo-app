@@ -28,10 +28,13 @@
   outline: none;
   padding: 7px;
   border-radius: 10px;
+  font-weight: 600;
 }
 
 .todo__form__button:hover {
   cursor: pointer;
+  background-color: rgb(29, 225, 29);
+  color: white;
 }
 
 .todo__list {
@@ -42,13 +45,38 @@
   justify-content: space-between;
 }
 
-.fa-circle-check {
+.todo__list p {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.todo__buttons button {
+  margin-left: 10px;
+  background-color: rgba(235, 48, 221, 1);
+  color: white;
+  border: none;
+  outline: none;
+  padding: 7px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.todo__buttons button:hover {
+  cursor: pointer;
+  background-color: rgb(237, 59, 97);
+  color: white;
+}
+
+.fa-solid.fa-circle-check {
   color: #eb30dd;
   background-color: white;
   padding: 3px;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .fa-circle-check:hover {
   cursor: pointer;
+  color: rgb(15, 245, 15);
 }
